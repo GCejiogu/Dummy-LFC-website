@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+    padding: 40px 60px;
+    background-color: rgb(184, 184, 209);
+}
+
+.join-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding:30px;
+    justify-content: center;
+    overflow: auto;
+    
+   
+
+}
+
+.join-card {
+    background-color: rgba(140, 140, 206, 0.774);
+    height:500px;
+    width: 100%;
+    border-radius: 5px;
+    color:rgb(23, 14, 85);
+    box-shadow:  0 5px 10px 0px ;
+    line-height: 1.4;
+    font-weight: 200;
+    font-family: sans-serif;
+      
+}
+
+.join-image img {
+    height: 490px;
+    border-radius:5px;
+    box-shadow:  0 5px 10px 0px ;
+    justify-items: center;
+    margin:10px;
+    width: 100%;
+}
+
+
+.join-card p {
+    margin-left: 20px;
+}
+
+.join-card h2{
+    margin: 20px;
+    color:rgb(41, 6, 124)
+}
+
+.footer {
+    color:rgb(146, 65, 65)
+    
+}
+.footer p {
+    text-align: center;
+}
+
+.redirect {
+    text-decoration-line: none;
+    color: rgb(112, 27, 202);
+    margin:20px;
+    padding: 0;
+    font-weight: 100px;
+    font-family: sans-serif;
+}
+.form {
+    margin:20px;
+ 
+}
+
+input{
+    border-radius: 0  10px 0;
+    background-color:rgb(236, 214, 218) ;
+}
+input[type=submit]{
+    background-color: darkgreen;
+}
+
+
+
+
+

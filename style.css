@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    font-family: sans-serif;
+  
+}
+
+.banner {
+    background-color: red;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 45px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.banner h1{
+    color: rgb(73, 60, 60);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 100px;
+}
+
+.banner-image {
+    margin:20px;
+    border-radius: 10px;
+    height: 120px;
+}
+
+.nav li {
+   list-style: none;
+   margin-right: 20px;
+
+   
+ 
+}
+
+.nav a {
+    text-decoration: none;
+    display: block;
+    transition: all 0.9sec ease-out;
+    
+
+}
+
+.nav a:hover{
+    transform: rotate(6deg);
+    color: white
+}
+
+.nav {
+    display: flex;
+    padding:0
+}
+
+.container {
+    background: white;
+    margin: 0;
+    padding: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1 ;
+    column-gap: 10px;
+    column-gap:;
+    justify-content:space-between;
+    
+
+}
+.about-lfc {
+    line-height: 1.5;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight:normal;
+    color: rgb(108, 122, 122);
+    grid-column: 1/span 2;
+    
+}
+
+.city-image img{
+   
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    
+}
+
+.Anfield-image img {
+    height:300px;
+    width: 100%;
+    border-radius: 10px;
+   
+}
+
